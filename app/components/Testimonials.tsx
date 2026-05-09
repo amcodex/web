@@ -1,29 +1,33 @@
 const testimonials = [
   {
-    quote: "PENDIENTE — pegar texto de reseña de María Brito S.",
-    name: "María Brito S.",
-    context: "",
+    quote:
+      "No pensé que un cuadro pudiera emocionarme tanto. Cuando vi el mapa con el cielo exacto de nuestra primera cita, se me pusieron los ojos brillosos. La calidad del papel y del marco es espectacular. Mi novio quedó sin palabras.",
+    name: "María Belén R.",
+    context: "Primera cita",
     stars: 5,
     type: "pareja",
   },
   {
-    quote: "PENDIENTE — pegar texto de reseña de Álvaro García.",
-    name: "Álvaro García",
-    context: "",
+    quote:
+      "Siempre me cuesta encontrar regalos que sean realmente especiales. Este fue perfecto. Lo personalizamos con el día que nos mudamos juntos y quedó hermoso en la pared. Llegó súper bien empaquetado y listo para colgar.",
+    name: "Alvaro Duarte",
+    context: "Pareja",
     stars: 5,
     type: "pareja",
   },
   {
-    quote: "PENDIENTE — pegar texto de reseña de Gabriela Mora.",
-    name: "Gabriela Mora",
-    context: "",
+    quote:
+      "Compré uno para mis papás con el cielo de su aniversario 30. Se emocionaron muchísimo. El diseño es delicado, elegante y se nota el cuidado en cada detalle. Sin duda voy a pedir otro para mi hermana.",
+    name: "Gabriela Meza",
+    context: "Aniversario familiar",
     stars: 5,
     type: "familia",
   },
   {
-    quote: "PENDIENTE — pegar texto de reseña de Rodrigo González.",
-    name: "Rodrigo González",
-    context: "",
+    quote:
+      "Pedí el mapa del nacimiento de mi hijo y quedó increíble. El acabado matte se ve premium. Además, la atención al cliente fue excelente y llegó antes de tiempo. Recomiendo al 100%.",
+    name: "Rodrigo Sanabria",
+    context: "Nacimiento",
     stars: 5,
     type: "familia",
   },
