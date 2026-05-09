@@ -1,17 +1,17 @@
 const comparisons = [
   {
-    bad: "Decoración genérica",
-    good: "Tu historia real",
+    bad: "No es decoración genérica",
+    good: "Es tu historia real",
     detail: "Cada mapa es único. Nadie en el mundo tiene el mismo cielo que el tuyo.",
   },
   {
-    bad: "Arte al azar",
-    good: "El cielo exacto de ese día",
+    bad: "No es arte al azar",
+    good: "Es el cielo exacto de ese día",
     detail: "Calculamos la posición real de cada estrella para la fecha, hora y lugar que elegís.",
   },
   {
-    bad: "Un regalo más",
-    good: "Un recuerdo irrepetible",
+    bad: "No es un regalo más",
+    good: "Es un recuerdo irrepetible",
     detail: "La persona que lo recibe entiende en segundos cuánto significa.",
   },
 ];

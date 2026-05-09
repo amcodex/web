@@ -5,20 +5,20 @@ interface HowItWorksProps {
 const steps = [
   {
     number: "01",
-    title: "Elegís tu momento",
-    desc: "Ingresás la fecha, hora y lugar exactos. Puede ser el día que se conocieron, el nacimiento de tu hijo, el aniversario — cualquier instante que importe.",
+    title: "Lugar",
+    desc: "Elegís la fecha, hora y lugar exactos del momento que querés inmortalizar.",
     detail: "El configurador es simple: en menos de 2 minutos tenés todo listo.",
   },
   {
     number: "02",
-    title: "Personalizás el diseño",
-    desc: "Elegís el título, el mensaje y el estilo visual. Podés previsualizar el resultado en tiempo real antes de confirmar.",
+    title: "Personalización",
+    desc: "Elegís el título, el diseño y el estilo visual. Podés previsualizar el resultado en tiempo real antes de confirmar.",
     detail: "Paleta oscura o clara, tipografías, composición — todo a tu gusto.",
   },
   {
     number: "03",
-    title: "Lo recibís en horas",
-    desc: "Digital de alta resolución al instante para que lo puedas imprimir donde quieras, o encargás la impresión física y lo enviamos a tu puerta.",
+    title: "Recepción",
+    desc: "Lo recibís digital al instante o impreso directamente en tu puerta.",
     detail: "Entrega digital inmediata · Impresión física en 24–48 hs.",
   },
 ];
@@ -101,15 +101,14 @@ export default function HowItWorks({ configuratorUrl = "#configurador" }: HowItW
         {/* Closing line */}
         <div className="text-center mb-10">
           <p
-            className="text-base"
+            className="text-base tracking-widest font-medium"
             style={{
               color: "#0B132B",
-              fontFamily: "var(--font-playfair), Georgia, serif",
-              fontStyle: "italic",
-              opacity: 0.7,
+              fontFamily: "var(--font-poppins)",
+              letterSpacing: "0.12em",
             }}
           >
-            Eso es todo. Nosotros nos encargamos del resto.
+            ESO ES TODO. NOSOTROS NOS ENCARGAMOS DEL RESTO.
           </p>
         </div>
 

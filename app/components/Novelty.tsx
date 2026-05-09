@@ -8,7 +8,7 @@ const features = [
         <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M16.9 16.9l2.1 2.1M4.9 19.1l2.1-2.1M16.9 7.1l2.1-2.1" stroke="#C5A46D" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-    title: "Datos astronómicos reales",
+    title: "Calculado con datos astronómicos reales",
     desc: "Usamos efemérides precisas para calcular la posición de cada estrella visible en tu cielo — no es una ilustración genérica.",
   },
   {
@@ -18,7 +18,7 @@ const features = [
         <circle cx="12" cy="9" r="2.5" stroke="#C5A46D" strokeWidth="1.5" />
       </svg>
     ),
-    title: "Fecha, hora y lugar exactos",
+    title: "Personalizado con fecha, hora y lugar exactos",
     desc: "Ingresás el día, la hora y las coordenadas de tu momento. El resultado es único en el mundo — literalmente tu cielo.",
   },
   {
@@ -28,18 +28,8 @@ const features = [
         <path d="M7 8h10M7 12h7M7 16h5" stroke="#C5A46D" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-    title: "Diseño de arte premium",
+    title: "Diseñado como pieza de arte premium, no como souvenir",
     desc: "Tipografía, composición y paleta pensadas para que cuelgue con orgullo en una pared, no que se pierda en un cajón.",
-  },
-  {
-    icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path d="M20 7H4a2 2 0 00-2 2v8a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z" stroke="#C5A46D" strokeWidth="1.5" />
-        <path d="M16 3H8L6 7h12l-2-4z" stroke="#C5A46D" strokeWidth="1.5" strokeLinejoin="round" />
-      </svg>
-    ),
-    title: "Digital al instante o impreso",
-    desc: "Descargá el archivo de alta resolución al momento, o encargá la impresión física que llega a tu puerta.",
   },
 ];
 

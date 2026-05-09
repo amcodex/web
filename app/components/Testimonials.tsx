@@ -1,33 +1,29 @@
 const testimonials = [
   {
-    quote:
-      "Es el único regalo que logró emocionarlo. Mi marido, que no llora nunca, se largó a llorar cuando lo vio. Nunca pensé que algo así pudiera significar tanto.",
-    name: "María B.",
-    context: "Aniversario de bodas",
+    quote: "PENDIENTE — pegar texto de reseña de María Brito S.",
+    name: "María Brito S.",
+    context: "",
     stars: 5,
     type: "pareja",
   },
   {
-    quote:
-      "Le regalé el cielo del día que nació mi hijo. Mi mamá lo enmarcó y lo tiene en la sala. Cada vez que viene alguien a casa pregunta qué es y ella lo cuenta con orgullo.",
-    name: "Lucía F.",
-    context: "Nacimiento de un hijo",
+    quote: "PENDIENTE — pegar texto de reseña de Álvaro García.",
+    name: "Álvaro García",
+    context: "",
+    stars: 5,
+    type: "pareja",
+  },
+  {
+    quote: "PENDIENTE — pegar texto de reseña de Gabriela Mora.",
+    name: "Gabriela Mora",
+    context: "",
     stars: 5,
     type: "familia",
   },
   {
-    quote:
-      "No sabía qué regalar para San Valentín y esto fue perfecto. La sorpresa fue total. Lo hice con el cielo del día que nos conocimos y ella no podía creer que existiera algo así.",
-    name: "Tomás R.",
-    context: "San Valentín",
-    stars: 5,
-    type: "pareja",
-  },
-  {
-    quote:
-      "Mi hermana cumplía 30 y quería algo diferente. Lo encargué con el cielo de la noche en que nacimos las dos. Lloramos las dos. Esto no se compra en ningún negocio.",
-    name: "Valentina C.",
-    context: "Cumpleaños",
+    quote: "PENDIENTE — pegar texto de reseña de Rodrigo González.",
+    name: "Rodrigo González",
+    context: "",
     stars: 5,
     type: "familia",
   },

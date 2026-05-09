@@ -81,12 +81,12 @@ export default function Hero({ configuratorUrl = "#configurador" }: HeroProps) {
             </span>
           </div>
 
-          {/* Pre-headline: who this is for */}
+          {/* Pre-headline */}
           <p
             className="text-sm tracking-widest uppercase"
             style={{ color: "#C5A46D", fontFamily: "var(--font-poppins)", letterSpacing: "0.18em" }}
           >
-            Para quienes no quieren volver a dar un regalo genérico
+            Mapas estelares personalizados
           </p>
 
           {/* Main headline */}
@@ -100,9 +100,9 @@ export default function Hero({ configuratorUrl = "#configurador" }: HeroProps) {
               lineHeight: 1.15,
             }}
           >
-            El mapa del instante
+            Para quienes quieren regalar algo
             <br />
-            <em style={{ color: "#C5A46D" }}>que lo cambió todo.</em>
+            <em style={{ color: "#C5A46D" }}>que realmente signifique algo.</em>
           </h1>
 
           {/* Sub-headline: product description + urgency */}
@@ -111,14 +111,13 @@ export default function Hero({ configuratorUrl = "#configurador" }: HeroProps) {
               className="text-base leading-relaxed"
               style={{ color: "rgba(244,243,238,0.75)", fontFamily: "var(--font-poppins)", fontWeight: 300 }}
             >
-              Mapas estelares personalizados del cielo exacto de tu momento más importante —
-              calculados con precisión astronómica real.
+              Mapas estelares personalizados del momento que lo cambió todo.
             </p>
             <p
               className="text-sm"
               style={{ color: "rgba(197,164,109,0.9)", fontFamily: "var(--font-poppins)", fontStyle: "italic" }}
             >
-              Ese cielo existió una sola vez. Este es el único momento para guardarlo.
+              No podés repetir la noche. Sí podés conservarla.
             </p>
           </div>
 
