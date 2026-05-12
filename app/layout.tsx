@@ -18,8 +18,23 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Lunara — Mapas Estelares Personalizados",
   description:
-    "Inmortalizá el cielo de tu momento más importante. Mapas estelares personalizados con precisión astronómica y diseño premium.",
-  keywords: "mapa estelar, regalo personalizado, starmap, constelaciones, regalo romántico",
+    "Mapas estelares personalizados del momento que lo cambió todo. Calculados con datos astronómicos reales, diseñados como arte premium.",
+  metadataBase: new URL("https://lunara-maps.com"),
+  openGraph: {
+    title: "Lunara — Mapas Estelares Personalizados",
+    description:
+      "Para quienes quieren regalar algo que realmente signifique algo. Mapas estelares personalizados del momento que lo cambió todo.",
+    url: "https://lunara-maps.com",
+    siteName: "Lunara",
+    locale: "es_AR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lunara — Mapas Estelares Personalizados",
+    description:
+      "Para quienes quieren regalar algo que realmente signifique algo.",
+  },
 };
 
 export default function RootLayout({
