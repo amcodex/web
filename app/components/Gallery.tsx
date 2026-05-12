@@ -59,8 +59,8 @@ export default function Gallery() {
                   src={map.src}
                   alt={map.alt}
                   width={300}
-                  height={400}
-                  style={{ objectFit: "cover", width: "100%", height: "auto", display: "block" }}
+                  height={420}
+                  style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>
               <p
