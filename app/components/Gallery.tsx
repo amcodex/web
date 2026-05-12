@@ -1,12 +1,12 @@
 "use client";
 
-import StarMapMockup from "./StarMapMockup";
+import Image from "next/image";
 
 const maps = [
-  { title: "Nuestro primer beso", date: "3 de Octubre, 2020", location: "Córdoba, Argentina", variant: "dark" as const },
-  { title: "Bienvenida al mundo, Sofía", date: "17 de Julio, 2022", location: "Rosario, Argentina", variant: "light" as const },
-  { title: "El día que dijiste sí", date: "12 de Diciembre, 2021", location: "Montevideo, Uruguay", variant: "dark" as const },
-  { title: "Nuestro primer viaje juntos", date: "5 de Agosto, 2019", location: "Barcelona, España", variant: "light" as const },
+  { src: "/dummylanding1.png", alt: "Mapa estelar fondo azul marino", label: "Estilo Midnight" },
+  { src: "/dummylanding2.png", alt: "Mapa estelar fondo blanco", label: "Estilo Classic" },
+  { src: "/dummylanding3.png", alt: "Mapa estelar fondo azul oscuro", label: "Estilo Navy" },
+  { src: "/dummylanding4.png", alt: "Mapa estelar fondo negro", label: "Estilo Noir" },
 ];
 
 export default function Gallery() {
@@ -41,14 +41,11 @@ export default function Gallery() {
           {maps.map((map, i) => (
             <div
               key={i}
-              className="group cursor-pointer"
+              className="flex flex-col gap-3"
             >
               <div
-                className="rounded-xl overflow-hidden transition-all duration-300"
-                style={{
-                  boxShadow: "0 8px 32px rgba(0,0,0,0.3)",
-                  transform: "scale(1)",
-                }}
+                className="rounded-xl overflow-hidden transition-all duration-300 cursor-pointer"
+                style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.3)" }}
                 onMouseEnter={(e) => {
                   (e.currentTarget as HTMLElement).style.transform = "scale(1.03) translateY(-4px)";
                   (e.currentTarget as HTMLElement).style.boxShadow = "0 20px 60px rgba(0,0,0,0.5), 0 0 30px rgba(197,164,109,0.1)";
@@ -58,14 +55,20 @@ export default function Gallery() {
                   (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 32px rgba(0,0,0,0.3)";
                 }}
               >
-                <StarMapMockup
-                  title={map.title}
-                  date={map.date}
-                  location={map.location}
-                  variant={map.variant}
-                  size="sm"
+                <Image
+                  src={map.src}
+                  alt={map.alt}
+                  width={300}
+                  height={400}
+                  style={{ objectFit: "cover", width: "100%", height: "auto", display: "block" }}
                 />
               </div>
+              <p
+                className="text-center text-xs"
+                style={{ color: "rgba(197,164,109,0.7)", fontFamily: "var(--font-poppins)", letterSpacing: "0.1em" }}
+              >
+                {map.label}
+              </p>
             </div>
           ))}
         </div>

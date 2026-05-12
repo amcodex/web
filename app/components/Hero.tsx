@@ -1,4 +1,4 @@
-import StarMapMockup from "./StarMapMockup";
+import Image from "next/image";
 
 interface HeroProps {
   configuratorUrl?: string;
@@ -176,20 +176,25 @@ export default function Hero({ configuratorUrl = "#configurador" }: HeroProps) {
           </div>
         </div>
 
-        {/* Right: Star map mockup */}
+        {/* Right: product photo */}
         <div className="flex justify-center lg:justify-end">
           <div
-            className="animate-float rounded-2xl overflow-hidden"
+            className="animate-float relative"
             style={{
+              width: 380,
+              maxWidth: "100%",
+              borderRadius: 16,
+              overflow: "hidden",
               boxShadow: "0 40px 80px rgba(0,0,0,0.4), 0 0 60px rgba(197,164,109,0.08)",
             }}
           >
-            <StarMapMockup
-              title="Para siempre juntos"
-              date="14 de Febrero, 2021"
-              location="Buenos Aires, Argentina"
-              variant="dark"
-              size="lg"
+            <Image
+              src="/Post2.PNG"
+              alt="Mapa estelar Lunara enmarcado"
+              width={380}
+              height={520}
+              style={{ objectFit: "cover", width: "100%", height: "auto" }}
+              priority
             />
           </div>
         </div>

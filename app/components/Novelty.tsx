@@ -1,4 +1,4 @@
-import StarMapMockup from "./StarMapMockup";
+import Image from "next/image";
 
 const features = [
   {
@@ -41,46 +41,45 @@ export default function Novelty() {
     >
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Left: mockups */}
-          <div className="flex justify-center relative">
-            <div
-              className="relative"
-              style={{ width: 320, height: 420 }}
-            >
-              {/* Back card */}
+          {/* Left: product photos stacked */}
+          <div className="flex justify-center relative" style={{ minHeight: 420 }}>
+            <div className="relative" style={{ width: 300, height: 420 }}>
+              {/* Back */}
               <div
-                className="absolute rounded-2xl overflow-hidden"
+                className="absolute rounded-xl overflow-hidden"
                 style={{
-                  top: 30,
-                  left: 30,
+                  top: 24,
+                  left: 24,
+                  width: 260,
                   transform: "rotate(4deg)",
-                  opacity: 0.6,
+                  opacity: 0.65,
                   boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
                 }}
               >
-                <StarMapMockup
-                  title="Nuestro primer viaje"
-                  date="22 de Junio, 2019"
-                  location="Madrid, España"
-                  variant="dark"
-                  size="md"
+                <Image
+                  src="/Post3.PNG"
+                  alt="Mapa estelar en habitación"
+                  width={260}
+                  height={360}
+                  style={{ objectFit: "cover", width: "100%", height: "auto" }}
                 />
               </div>
-              {/* Front card */}
+              {/* Front */}
               <div
-                className="absolute rounded-2xl overflow-hidden"
+                className="absolute rounded-xl overflow-hidden"
                 style={{
                   top: 0,
                   left: 0,
+                  width: 260,
                   boxShadow: "0 30px 80px rgba(0,0,0,0.5), 0 0 40px rgba(197,164,109,0.1)",
                 }}
               >
-                <StarMapMockup
-                  title="El día que dijiste sí"
-                  date="8 de Marzo, 2023"
-                  location="Mendoza, Argentina"
-                  variant="dark"
-                  size="md"
+                <Image
+                  src="/Post2.PNG"
+                  alt="Mapa estelar Lunara enmarcado"
+                  width={260}
+                  height={360}
+                  style={{ objectFit: "cover", width: "100%", height: "auto" }}
                 />
               </div>
             </div>
