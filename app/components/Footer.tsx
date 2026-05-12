@@ -33,10 +33,15 @@ export default function Footer() {
 
         {/* Links */}
         <div className="flex items-center gap-8">
-          {["Instagram", "WhatsApp"].map((link) => (
+          {[
+            { label: "Instagram", href: "https://www.instagram.com/lunara_maps" },
+            { label: "WhatsApp", href: "#" },
+          ].map((link) => (
             <a
-              key={link}
-              href="#"
+              key={link.label}
+              href={link.href}
+              target={link.href.startsWith("http") ? "_blank" : undefined}
+              rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
               className="text-sm transition-colors"
               style={{
                 color: "rgba(244,243,238,0.4)",
@@ -50,7 +55,7 @@ export default function Footer() {
                 (e.target as HTMLElement).style.color = "rgba(244,243,238,0.4)";
               }}
             >
-              {link}
+              {link.label}
             </a>
           ))}
         </div>
