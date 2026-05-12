@@ -17,7 +17,7 @@ const guarantees = [
       </svg>
     ),
     title: "Digital al instante, sin riesgo",
-    desc: "Si preferís el archivo digital, lo descargás inmediatamente y podés verlo antes de comprometer nada más. Lo imprimís donde vos quieras.",
+    desc: "Podés ver el preview inmediatamente antes de comprometer nada más.",
   },
   {
     icon: (
