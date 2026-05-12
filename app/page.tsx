@@ -9,7 +9,7 @@ import RiskElimination from "./components/RiskElimination";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
 
-const CONFIGURATOR_URL = "#configurador";
+const CONFIGURATOR_URL = "https://app.lunara-maps.com";
 
 export default function Home() {
   return (
