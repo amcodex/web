@@ -45,10 +45,14 @@ export default function Navbar({ configuratorUrl = "#configurador" }: NavbarProp
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
-          {["Cómo funciona", "Galería", "Testimonios"].map((item) => (
+          {[
+            { label: "Cómo funciona", href: "#como-funciona" },
+            { label: "Galería", href: "#galeria" },
+            { label: "Testimonios", href: "#testimonios" },
+          ].map((item) => (
             <a
-              key={item}
-              href={`#${item.toLowerCase().replace(/\s/g, "-").replace(/ó/g, "o")}`}
+              key={item.label}
+              href={item.href}
               className="text-sm transition-colors"
               style={{
                 fontFamily: "var(--font-poppins), sans-serif",
@@ -64,7 +68,7 @@ export default function Navbar({ configuratorUrl = "#configurador" }: NavbarProp
                   : "rgba(244,243,238,0.75)";
               }}
             >
-              {item}
+              {item.label}
             </a>
           ))}
         </nav>
