@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 interface HeroProps {
@@ -125,6 +127,7 @@ export default function Hero({ configuratorUrl = "#configurador" }: HeroProps) {
           <div className="flex flex-col gap-3">
             <a
               href={configuratorUrl}
+              onClick={() => window.gtag?.("event", "cta_click", { button_location: "hero" })}
               className="inline-flex items-center justify-center gap-2 rounded-full font-medium transition-all duration-200 self-start"
               style={{
                 backgroundColor: "#C5A46D",

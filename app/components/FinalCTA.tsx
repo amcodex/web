@@ -1,3 +1,5 @@
+"use client";
+
 const STARS_BG = [
   { top: "10%", left: "8%", size: 2, delay: "0s", dur: "3.5s" },
   { top: "20%", left: "25%", size: 1.5, delay: "0.8s", dur: "4s" },
@@ -94,6 +96,7 @@ export default function FinalCTA({ configuratorUrl = "#configurador" }: FinalCTA
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
           <a
             href={configuratorUrl}
+            onClick={() => window.gtag?.("event", "cta_click", { button_location: "final_cta" })}
             className="inline-flex items-center gap-2 rounded-full font-medium transition-all duration-200"
             style={{
               backgroundColor: "#C5A46D",

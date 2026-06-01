@@ -75,6 +75,7 @@ export default function Navbar({ configuratorUrl = "#configurador" }: NavbarProp
 
         <a
           href={configuratorUrl}
+          onClick={() => window.gtag?.("event", "cta_click", { button_location: "navbar" })}
           className="text-sm px-5 py-2.5 rounded-full transition-all duration-200 font-medium"
           style={{
             fontFamily: "var(--font-poppins), sans-serif",

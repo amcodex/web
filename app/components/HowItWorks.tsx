@@ -1,3 +1,5 @@
+"use client";
+
 interface HowItWorksProps {
   configuratorUrl?: string;
 }
@@ -116,6 +118,7 @@ export default function HowItWorks({ configuratorUrl = "#configurador" }: HowItW
         <div className="flex flex-col items-center gap-2">
           <a
             href={configuratorUrl}
+            onClick={() => window.gtag?.("event", "cta_click", { button_location: "how_it_works" })}
             className="inline-flex items-center gap-2 rounded-full font-medium transition-all duration-200"
             style={{
               backgroundColor: "#0B132B",
