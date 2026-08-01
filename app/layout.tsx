@@ -61,7 +61,10 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_ID}', { page_title: 'Homepage' });
+            gtag('config', '${GA_ID}', {
+              page_title: 'Homepage',
+              linker: { domains: ['lunara-maps.com', 'app.lunara-maps.com'] }
+            });
           `}
         </Script>
         <Script id="meta-pixel" strategy="afterInteractive">
