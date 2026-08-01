@@ -63,7 +63,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', '${GA_ID}', {
               page_title: 'Homepage',
-              linker: { domains: ['lunara-maps.com', 'app.lunara-maps.com'] }
+              linker: { domains: ['lunara-maps.com', 'app.lunara-maps.com', 'lunara-maps.myshopify.com'] }
             });
           `}
         </Script>
