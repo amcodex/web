@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="flex items-center gap-8">
           {[
             { label: "Instagram", href: "https://www.instagram.com/lunara_maps" },
-            { label: "WhatsApp", href: "#" },
+            { label: "WhatsApp", href: "https://wa.me/595986759934" },
           ].map((link) => (
             <a
               key={link.label}
