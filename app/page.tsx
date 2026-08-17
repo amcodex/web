@@ -4,6 +4,7 @@ import WhyLunara from "./components/WhyLunara";
 import Novelty from "./components/Novelty";
 import HowItWorks from "./components/HowItWorks";
 import Gallery from "./components/Gallery";
+import SizesComparison from "./components/SizesComparison";
 import Testimonials from "./components/Testimonials";
 import RiskElimination from "./components/RiskElimination";
 import FinalCTA from "./components/FinalCTA";
@@ -21,6 +22,7 @@ export default function Home() {
         <Novelty />
         <HowItWorks configuratorUrl={CONFIGURATOR_URL} />
         <Gallery />
+        <SizesComparison />
         <Testimonials />
         <RiskElimination />
         <FinalCTA configuratorUrl={CONFIGURATOR_URL} />
