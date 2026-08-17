@@ -3,10 +3,10 @@
 import Image from "next/image";
 
 const maps = [
-  { src: "/lunara-gallery-midnight.jpg", alt: "Mapa estelar estilo Midnight en dormitorio moderno", label: "Estilo Midnight" },
-  { src: "/lunara-gallery-classic.jpg", alt: "Mapa estelar estilo Classic con marco dorado", label: "Estilo Classic" },
-  { src: "/lunara-gallery-navy.jpg", alt: "Mapa estelar estilo Navy en sala con marco de madera", label: "Estilo Navy" },
-  { src: "/lunara-gallery-noir.jpg", alt: "Mapa estelar estilo Noir en comedor romántico", label: "Estilo Noir" },
+  { src: "/lunara-gallery-midnight.png", alt: "Mapa estelar estilo Midnight en dormitorio moderno", label: "Estilo Midnight" },
+  { src: "/lunara-gallery-classic.png", alt: "Mapa estelar estilo Classic con marco dorado", label: "Estilo Classic" },
+  { src: "/lunara-gallery-navy.png", alt: "Mapa estelar estilo Navy en sala con marco de madera", label: "Estilo Navy" },
+  { src: "/lunara-gallery-noir.png", alt: "Mapa estelar estilo Noir en comedor romántico", label: "Estilo Noir" },
 ];
 
 export default function Gallery() {

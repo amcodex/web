@@ -31,7 +31,7 @@ export default function SizesComparison() {
           style={{ boxShadow: "0 8px 40px rgba(11,19,43,0.1)" }}
         >
           <Image
-            src="/lunara-sizes.jpg"
+            src="/lunara-sizes.png"
             alt="Comparativa de tamaños S, M y L del mapa estelar Lunara"
             width={1600}
             height={900}
