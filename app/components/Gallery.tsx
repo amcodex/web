@@ -63,13 +63,7 @@ export default function Gallery() {
                   style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>
-              <p
-                className="text-center text-xs"
-                style={{ color: "rgba(197,164,109,0.7)", fontFamily: "var(--font-poppins)", letterSpacing: "0.1em" }}
-              >
-                {map.label}
-              </p>
-            </div>
+              </div>
           ))}
         </div>
 
