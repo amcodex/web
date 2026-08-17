@@ -182,21 +182,21 @@ export default function Hero({ configuratorUrl = "#configurador" }: HeroProps) {
         {/* Right: product photo */}
         <div className="flex justify-center lg:justify-end">
           <div
-            className="animate-float relative"
+            className="relative"
             style={{
-              width: 380,
+              width: 420,
               maxWidth: "100%",
-              borderRadius: 16,
+              borderRadius: 20,
               overflow: "hidden",
-              boxShadow: "0 40px 80px rgba(0,0,0,0.4), 0 0 60px rgba(197,164,109,0.08)",
+              boxShadow: "0 40px 80px rgba(0,0,0,0.5), 0 0 60px rgba(197,164,109,0.1)",
             }}
           >
             <Image
-              src="/Post2.PNG"
-              alt="Mapa estelar Lunara enmarcado"
-              width={380}
-              height={520}
-              style={{ objectFit: "cover", width: "100%", height: "auto" }}
+              src="/lunara-hero-lifestyle.png"
+              alt="Mapa estelar Lunara enmarcado en sala"
+              width={900}
+              height={1200}
+              style={{ width: "100%", height: "auto", display: "block" }}
               priority
             />
           </div>
